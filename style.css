@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+:root{
+    font-size: 20px;
+
+    --color-primary:#2f363e;
+    --color-secondery:#fff;
+    --color-tertiary:#1c1f24;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0px;
+    padding:0px;
+
+    color: var(--color-secondery);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section */
+.time{
+
+    width: 80%;
+    max-width: 700px;
+    height: 150px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section section */
+.time section{
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section section div(1) span(1) */
+.time section div:nth-child(1) span:nth-child(1){
+    display: block;
+    text-align: center;
+}
+
+/* section section div(1) span(2) */
+.time section div:nth-child(1) span:nth-child(2){
+    display: block;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+/* section section div(2) */
+svg{
+
+    width:150px; 
+    height:150px;
+
+    position: absolute;
+    overflow: visible;
+
+    transform: rotateZ(90deg) rotateY(180deg);
+}
+
+svg circle:nth-child(1){
+
+    
+    fill: transparent;
+    
+    stroke:var(--color-tertiary);
+    stroke-width: 5;
+    
+    stroke-dasharray: 472;
+    
+}   
+svg circle:nth-child(2){
+    fill: transparent;
+
+    stroke: var(--c);
+    stroke-width: 5;
+
+    stroke-dasharray: 472;
+    stroke-dashoffset: 0;
+
+}
+
+#AmPm{
+    align-self: flex-start;
+}

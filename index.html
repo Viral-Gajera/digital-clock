@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+        <link rel="stylesheet" href="style.css">
+   </head>
+
+   <body>
+
+    <section class="time" >
+
+        <section class="hour-container" >
+            <div>
+                <span class="hour" >00</span>
+                <span>HOUR</span>
+            </div>
+
+            <svg class="circle" >
+                <circle cx="75" cy="75"  r="75"/>
+                <circle cx="75" cy="75" r="75" id="hh" style="--c:rgb(255, 255, 0);" />
+            </svg>
+        </section>
+
+        <section class="minute-container" >
+            <div>
+                <span class="minute" >00</span>
+                <span>MINUTE</span>
+            </div>
+
+            <svg class="circle" >
+                <circle cx="75" cy="75"  r="75"/>
+                <circle cx="75" cy="75" r="75" id="mm" style="--c:rgb(2, 190, 253);" />
+            </svg>
+        </section>
+
+        <section class="second-container" >
+            <div>
+                <span class="second" >00</span>
+                <span>SECONND</span>
+            </div>
+
+            <svg class="circle" >
+                <circle cx="75" cy="75"  r="75"/>
+                <circle cx="75" cy="75" r="75" id="ss" style="--c:rgb(255, 0, 255);" />
+            </svg>
+        </section>
+
+        <div id="AmPm" ></div>
+
+
+    </section>
+
+    <script src="./script.js"></script>
+   </body>
+
+</html>
